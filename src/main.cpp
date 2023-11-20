@@ -7,6 +7,7 @@ int main()
     try
     {
         SQLite::Database db("sqlite-example.db", SQLite::OPEN_READWRITE | SQLite::OPEN_CREATE);
+        db.exec("DROP TABLE IF EXISTS test");
     }
     catch (std::exception& e)
     {
