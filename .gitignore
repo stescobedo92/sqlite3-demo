@@ -33,6 +33,5 @@
 
 #vscode
 .vscode
-src/CMakeLists.txt
 .cache
 build
